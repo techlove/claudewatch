@@ -2,11 +2,12 @@
 
 A native macOS menu bar app that monitors your Claude subscription usage in real time.
 <img width="147" height="27" alt="image" src="https://github.com/user-attachments/assets/b27028b9-77b2-4be1-98fe-bac01373136c" />
-
+<img width="120" height="25" alt="image" src="https://github.com/user-attachments/assets/0ad716b9-dd0e-43ae-933d-3617268994a9" />
 <p>
-<img width="280" alt="Overview" src="https://github.com/user-attachments/assets/b64744d2-a507-4b53-9207-269450bf4bc1" />
-<img width="280" alt="Sessions" src="https://github.com/user-attachments/assets/b1b09a0a-c2bc-4091-9f8a-66f39838735a" />
-<img width="280" alt="Stats" src="https://github.com/user-attachments/assets/d76055cc-fcf4-49d6-a536-401c4bfca02e" />
+<img width="362" height="433" alt="image" src="https://github.com/user-attachments/assets/9ceaa327-d2d8-454e-b76a-a9e987773a6e" />
+<img width="367" height="435" alt="image" src="https://github.com/user-attachments/assets/829f343b-dd3e-4f9c-b94b-1efd2d19ac52" />
+<img width="365" height="435" alt="image" src="https://github.com/user-attachments/assets/d0f42838-c314-4b0d-b403-d33c361d23c1" />
+<img width="364" height="434" alt="image" src="https://github.com/user-attachments/assets/60716a2b-eed0-46b9-aa48-1ce783cf3baf" />
 </p>
 
 ## Install
