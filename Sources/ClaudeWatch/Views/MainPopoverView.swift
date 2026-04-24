@@ -110,6 +110,21 @@ struct MainPopoverView: View {
         }
     }
 
+    private var techloveLabel: some View {
+        HStack(spacing: 3) {
+            if let url = Bundle.module.url(forResource: "techlove", withExtension: "png", subdirectory: "Resources"),
+               let nsImage = NSImage(contentsOf: url) {
+                Image(nsImage: nsImage)
+                    .resizable()
+                    .interpolation(.high)
+                    .frame(width: 10, height: 10)
+            }
+            Text("Made by Techlove")
+                .font(.system(size: 10))
+                .foregroundStyle(.white.opacity(0.35))
+        }
+    }
+
     private var footer: some View {
         HStack {
             if let updated = store.lastUpdated {
@@ -117,6 +132,8 @@ struct MainPopoverView: View {
                     .font(.system(size: 10))
                     .foregroundStyle(.white.opacity(0.35))
             }
+            Spacer()
+            techloveLabel
             Spacer()
             Button("Quit") { NSApplication.shared.terminate(nil) }
                 .buttonStyle(.plain)
